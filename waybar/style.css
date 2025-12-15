@@ -1,0 +1,32 @@
+* {
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 12px;
+    min-height: 0;
+    padding: 0 4px;
+    margin: 0 2px;
+}
+
+window#waybar {
+    background: rgba(30,30,46,0.9);
+    color: #cdd6f4;
+}
+
+#cpu, #memory, #network, #battery, #tray {
+    padding: 0 4px;
+    margin: 0 4px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: #59b0eb;
+}
+
+#workspaces button.active {
+    background: #59b0eb;
+    color: #1e1e2e;
+    border-radius: 6px;
+}

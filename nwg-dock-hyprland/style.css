@@ -1,0 +1,25 @@
+window {
+    background-color: rgba(30,30,46,0.85);
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+button {
+    padding: 15px;
+    margin: 0 12px;
+    border-radius: 16px;
+    background-color: rgba(49,50,68,0.6);
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #59b0eb;
+    box-shadow: 0 0 25px #59b0ebcc;
+    transform: scale(1.15);
+}
+
+image {
+    -gtk-icon-transform: scale(1.4);
+}
