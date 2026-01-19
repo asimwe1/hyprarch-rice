@@ -1,0 +1,23 @@
+# Blue-themed mako – matches your rice
+background-color=#1e1e2eEE
+text-color=#cdd6f4
+border-color=#59b0eb
+border-size=3
+border-radius=12
+padding=12
+width=400
+height=120
+font=JetBrainsMono Nerd Font 12
+
+# Progress bar for volume/brightness
+progress-color=over #59b0eb
+
+# Position top-right (change to bottom-right if you prefer: anchor=bottom-right)
+anchor=top-right
+margin=20
+
+# Default timeout 5 seconds
+default-timeout=5000
+
+# Group notifications
+group-by=app-name

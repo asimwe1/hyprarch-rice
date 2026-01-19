@@ -1,0 +1,9 @@
+width=600
+height=400
+location=center
+show=drun
+prompt=Launch
+allow_images=true
+image_size=48
+insensitive=true
+halign=fill

@@ -345,8 +345,3 @@ bind = $mainMod SHIFT, P, exec, grim - | wl-copy && wl-paste > ~/Pictures/Screen
 bind = $mainMod, V, exec, cliphist list | wofi --dmenu | cliphist decode | wl-copy
 exec-once = wl-paste --watch cliphist store
 bind = $mainMod, semicolon, exec, hypremoji
-
-# HyprEmoji config
-source = ~/.config/hypremoji/hypremoji.conf
-env = GTK_THEME,catppuccin-sapphire
-bind = $mainMod SHIFT, B, exec, waydroid app launch com.whatsapp.w4b

@@ -1,0 +1,17 @@
+clock
+indicator
+datestr=%a %d %b
+timestr=%H:%M
+screenshots
+fade-in=0.5
+effect-blur=12x8
+effect-vignette=0.6:0.6
+grace=5
+indicator-radius=120
+indicator-thickness=15
+ring-color=1e1e2e
+key-hl-color=59b0eb
+line-color=59b0eb
+inside-color=00000088
+separator-color=00000000
+text-color=cdd6f4

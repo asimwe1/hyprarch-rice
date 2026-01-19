@@ -1,0 +1,45 @@
+window {
+    margin: 0px;
+    border: 4px solid #59b0eb;
+    background-color: rgba(30,30,46,0.9);
+    border-radius: 16px;
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 14px;
+}
+
+#outer-box {
+    padding: 20px;
+}
+
+#input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgba(49,50,68,0.8);
+    color: #cdd6f4;
+}
+
+#scroll {
+    margin-top: 20px;
+}
+
+#entry {
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+#entry:selected {
+    background-color: #59b0eb;
+    outline: none;
+}
+
+#text {
+    color: #cdd6f4;
+    margin-left: 12px;
+}
+
+#img {
+    margin-right: 12px;
+}
